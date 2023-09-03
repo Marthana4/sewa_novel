@@ -3,7 +3,7 @@
 @section('content')
 <div class="card">
     <div class="card-body">
-        <h5 class="card-title">Form Persewaan</h5>
+        <h5 class="card-title">Form Pengembalian</h5>
 
         <!-- Floating Labels Form -->
         <form class="row g-3" role="form" action="{{ route('transaksi-edit', $transaksi->id_transaksi) }}" method="post" enctype="multipart/form-data">
